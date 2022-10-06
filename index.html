@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1" http-equiv="content-type">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            .row {
+              display: flex;
+              flex-wrap: wrap;
+            }
+            .column {
+              flex: 50%;
+              padding: 20px;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            /* On screens that are 992px wide or less, go from four columns to two columns */
+            @media screen and (max-width: 675px) {
+              .row {
+                flex-direction: column;
+              }
+            }
+            </style>
+            </head>
+            <body style="background-color: #996633;">
+            <div class="row">
+              <div class="column">
+                  <a href="doc_eng.html" class="center"><img src="images/image0.png" style="width: 90%"></a>
+              </div>
+              
+              <div class="column">
+                  <a href="doc_esp.html" class="center"><img src="images/image1.png" style="width: 90%"></a>
+              </div>
+            </div>
+    </body>
+</html>
